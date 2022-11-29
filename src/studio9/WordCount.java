@@ -30,6 +30,7 @@ public class WordCount {
 	public static Map<String, Integer> countWords(List<String> words) {
 		Map<String, Integer> wordCount = new HashMap<String, Integer>();
 		for (String word:words) {
+
 			if (wordCount.containsKey(word) == false) {
 				wordCount.put(word, 1);
 			}

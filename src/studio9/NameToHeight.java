@@ -29,5 +29,6 @@ public class NameToHeight {
 			String name = in.next();
 			System.out.println(nameToHeight.get(name));
 		}
+
 	}
 }
